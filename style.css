@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk";
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgba(60, 60, 60, 1);
+}
+
+div.generator-container {
+    text-align: center;
+}
+
+div.generator-container h1 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 128px;
+}
+
+div.generator-container button {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    padding: 8px 16px;
+    appearance: none;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+
+.sort {
+    animation: sort 0.1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes sort {
+    to {
+        transform: translateX(-5%);
+    }
+
+    from {
+        transform: translateX(5%);
+    }
+}
