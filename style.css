@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -15,19 +17,17 @@ body {
 
 div.generator-container {
     text-align: center;
+    color: rgba(255, 255, 255, 1);
 }
 
 div.generator-container h1 {
-    color: rgba(255, 255, 255, 1);
     font-weight: 400;
     font-size: 128px;
 }
 
 div.generator-container button {
-    color: rgba(255, 255, 255, 1);
     font-weight: 400;
     font-size: 16px;
-    margin: 0 auto;
     background-color: dodgerblue;
     padding: 8px 16px;
     appearance: none;
