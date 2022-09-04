@@ -17,12 +17,12 @@ body {
 
 div.generator-container {
     text-align: center;
-    color: rgba(255, 255, 255, 1);
 }
 
 div.generator-container h1 {
     font-weight: 400;
     font-size: 128px;
+    color: rgba(255, 255, 255, 1);
 }
 
 div.generator-container button {
@@ -34,6 +34,7 @@ div.generator-container button {
     border-radius: 4px;
     border: 0;
     cursor: pointer;
+    color: rgba(255, 255, 255, 1);
 }
 
 .sort {
