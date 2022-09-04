@@ -6,7 +6,7 @@ const randomNumber = (intervalNumber, duration) => {
     btn.onclick = () => {
         btn.classList.toggle("sort")
         animation = setInterval(() => {
-            elementNumber.textContent = Math.floor(Math.random() * intervalNumber + 1)
+            elementNumber.textContent = Math.floor(Math.random() * (intervalNumber + 1))
         }, 25)
 
         setTimeout(() => {
